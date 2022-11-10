@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+:root {
+  $primary-color: #172b4d;
+  $logo-color: #6070ff;
+  $light-blue: #7f8cff;
+  $hover-color: #2230d2;
+  $main-font: "Poppins", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,27 +15,10 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-}
-
-$primary-color: #172b4d;
-$logo-color: #6070ff;
-$light-blue: #7f8cff;
-$hover-color: #2230d2;
-$main-font: "Poppins", sans-serif;
-
-@mixin flex {
-  display: flex;
-}
-
-@mixin flex2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: $main-font;
 }
 
 h1 {
-  font-family: $main-font;
   font-size: 48px;
   font-weight: 900;
   line-height: 50px;
@@ -42,7 +33,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 
-  :hover {
+  a:hover {
     color: $hover-color;
   }
 }
@@ -70,17 +61,4 @@ a {
     width: 85%;
     font-size: 20px;
   }
-}
-
-header {
-  @include flex;
-  width: 100%;
-}
-
-.nav-item {
-  @include flex;
-}
-
-.card {
-  @include flex2;
 }

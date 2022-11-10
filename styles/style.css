@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,6 @@ body {
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height: 50px;
@@ -25,7 +25,8 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-a :hover {
+
+a a:hover {
   color: #2230d2;
 }
 
@@ -48,22 +49,8 @@ a :hover {
 .hero-text {
   margin-top: 20%;
 }
+
 .hero-text p {
   width: 85%;
   font-size: 20px;
 }
-
-header {
-  display: flex;
-  width: 100%;
-}
-
-.nav-item {
-  display: flex;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}/*# sourceMappingURL=style.css.map */
