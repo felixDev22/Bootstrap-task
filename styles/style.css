@@ -19,9 +19,9 @@ h1 {
 }
 
 a {
-  font-size: 18px;
+  font-size: 15px;
   color: #7f8cff;
-  font-weight: 500;
+  font-weight: normal;
   text-decoration: none;
   cursor: pointer;
 }
@@ -55,8 +55,15 @@ a :hover {
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+.nav-item {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
