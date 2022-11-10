@@ -20,10 +20,11 @@ $main-font: "Poppins", sans-serif;
 }
 h1 {
   font-family: $main-font;
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 900;
-  line-height: 45px;
+  line-height: 50px;
   color: $primary-color;
+  margin-bottom: 20px;
 }
 
 a {
@@ -57,4 +58,9 @@ a {
     width: 85%;
     font-size: 20px;
   }
+}
+header {
+  @include flex;
+  justify-content: space-between;
+  align-items: center;
 }

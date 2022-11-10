@@ -11,10 +11,11 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 900;
-  line-height: 45px;
+  line-height: 50px;
   color: #172b4d;
+  margin-bottom: 20px;
 }
 
 a {
@@ -50,6 +51,12 @@ a :hover {
 .hero-text p {
   width: 85%;
   font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
